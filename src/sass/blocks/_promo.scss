@@ -1,0 +1,14 @@
+.promo {
+    min-height: 100vh;
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    padding-top: 30vh;
+    .title {
+        margin-top: 9px;
+    }
+    .button {
+        margin-right: 20px;
+    }
+    &__btn-wrapper {
+        margin-top: 25px;
+    }
+}

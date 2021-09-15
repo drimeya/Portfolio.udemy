@@ -1,0 +1,27 @@
+.social {
+    position: fixed;
+    top: 50vh;
+    left: 50px;
+    transform: translateX(-50%) rotate(-90deg) ;
+    display: flex;
+    &__text {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__divider {
+        width: 70px;
+        height: 2px;
+        background: #000;
+        margin: auto 15px;
+    }
+    &__link {
+        font-size: 20px;
+        padding: 0 7px;
+        color: #000;
+        transition: 0.3s all;
+        &:hover {
+            color: $main;
+        }
+    }
+}

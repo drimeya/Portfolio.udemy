@@ -5,10 +5,22 @@
     line-height: 24px;
     @include circle;
     transform: translateX(18px);
+    &_center {
+        transform: translateX(0);
+        text-align: center;
+        @include circle-center;
+    }
 }
 .title {
     margin: 0;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
+    &_small {
+        font-size: 36px;
+        line-height: 60px;
+    }
+    &_center {
+        text-align: center;
+    }
 }

@@ -1,0 +1,93 @@
+.benefit {
+    padding: 120px 65px 0 65px;
+    .title {
+        margin-top: 6px;
+    }
+    .divider {
+        margin-top: 25px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 425px 425px;
+        gap: 136px;
+        padding-top: 80px;
+    }
+    &__title {
+        position: relative;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+        margin-left: 50px;
+        &:before {
+            content: '';
+            display: block;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -57px;
+            border-radius: 50%;
+            background-color: $main;
+        }
+    }
+    &__name {
+        position: relative;
+        margin-left: 100px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        &:before {
+            content: '';
+            display: block;
+            width: 48px;
+            height: 1px;
+            background: #000;
+            position: absolute;
+            top: 22px;
+            left: -100px;
+        }
+        
+    }
+    &__name-sub {
+        margin-left: 100px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__icon {
+        position: absolute;
+        top: 55px;
+        left: 60px;
+        @include circle;
+        span {
+            font-size: 25px;
+        }
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 43px;
+        margin-top: 12px;
+    }
+    ul {
+        position: relative;
+        list-style-type: none;
+        li {
+            position: relative;
+            padding-top: 45px;
+            &:before {
+                content: '';
+                display: block;
+                height: calc(100% + 7px);
+                width: 1px;
+                background: #000;
+                position: absolute;
+                top: -7px;
+            }
+        }
+    }
+}

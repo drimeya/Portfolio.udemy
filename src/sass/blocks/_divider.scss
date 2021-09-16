@@ -3,4 +3,7 @@
     height: 6px;
     border-radius: 3px;
     background: $main;
+    &_center {
+        margin: 0 auto;
+    }
 }

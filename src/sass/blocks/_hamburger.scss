@@ -3,7 +3,11 @@
     z-index: 2;
     top: 20px;
     right: 30px;
-    width: 36px;
-    height: 21px;
+    font-size: 20px;
     cursor: pointer;
+    transition: 0.2s all;
+    &:hover {
+        color: $main;
+        transform: rotate(15deg);
+    }
 }

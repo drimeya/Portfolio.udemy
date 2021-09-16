@@ -1,0 +1,52 @@
+.about-me {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 70px;
+    padding: 120px 100px 0 0;
+    .subtitle {
+        margin-top: 5px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 60px;
+        margin-top: 6px;
+    }
+    .divider {
+        margin-top: 4px;
+    }
+    &__descr {
+        margin: 20px 0 0 0;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__skills {
+        display: grid;
+        grid-template-columns: 260px 260px;
+        gap: 50px;
+        margin-top: 40px;
+    }
+    &__skill {
+        position: relative;
+        &-title {
+            margin-left: 60px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &-descr {
+            margin-left: 60px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 6px;
+        }
+        &-img {
+            
+            position: absolute;
+            font-size: 25px;
+            top: 10px;
+            left: 10px;
+            @include circle;
+        }
+    }
+}

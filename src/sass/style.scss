@@ -12,9 +12,6 @@
     width: 1140px;
     margin: 0 auto;
 }
-body {
-    position: relative;
-}
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -24,3 +21,6 @@ body {
 @import 'blocks/social';
 @import 'blocks/hamburger';
 @import 'blocks/menu';
+
+@import 'blocks/about-me';
+@import 'blocks/divider';

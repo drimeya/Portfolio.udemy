@@ -3,15 +3,6 @@
     grid-template-columns: 400px 1fr;
     gap: 70px;
     padding: 120px 100px 0 0;
-    .subtitle {
-        margin-top: 5px;
-    }
-    .title {
-        margin-top: 6px;
-    }
-    .divider {
-        margin-top: 4px;
-    }
     &__descr {
         margin: 20px 0 0 0;
         font-size: 14px;
@@ -27,7 +18,6 @@
         position: relative;
         &-title {
             margin-left: 60px;
-            font-weight: bold;
             font-size: 14px;
             line-height: 21px;
         }

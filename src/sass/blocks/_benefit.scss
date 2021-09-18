@@ -1,11 +1,5 @@
 .benefit {
     padding: 120px 65px 0 65px;
-    .title {
-        margin-top: 6px;
-    }
-    .divider {
-        margin-top: 25px;
-    }
     &__wrapper {
         display: grid;
         grid-template-columns: 425px 425px;
@@ -14,7 +8,6 @@
     }
     &__title {
         position: relative;
-        font-weight: bold;
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 0;
@@ -36,7 +29,6 @@
         position: relative;
         margin-left: 100px;
         margin-bottom: 0;
-        font-weight: bold;
         font-size: 14px;
         line-height: 21px;
         &:before {

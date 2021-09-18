@@ -1,0 +1,82 @@
+.contacts {
+    padding-top: 120px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 70px;
+    &__text {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+    &__links {
+        margin-top: 12px;
+        transform: translateX(-15px);
+        a {
+            color: #000;
+            transition: 0.2s all;
+            &:hover {
+                color: $main;
+                text-decoration: none;
+            }
+        }
+        span {
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    }
+    &__wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 45px 190px 45px / 1fr 1fr;
+        gap: 25px;
+        .button {
+            width: 220px;
+        }
+    }
+    &__input {
+        position: relative;
+        input {
+            padding: 0 20px;
+            width: 100%;
+            height: 100%;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        label {
+            position: absolute;
+            top: -10px;
+            left: 12px;
+            display: block;
+            padding: 0 8px;
+            height: 18px;
+            background-color: #FFF;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    &__textarea {
+        position: relative;
+        grid-column: 1 / 3;
+        textarea {
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+            resize: none;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        label {
+            position: absolute;
+            top: -10px;
+            left: 12px;
+            display: block;
+            padding: 0 8px;
+            height: 18px;
+            background-color: #FFF;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+}

@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     font-style: normal;
+    font-weight: bold;
 }
 .container {
     width: 1140px;
@@ -21,8 +22,10 @@
 @import 'blocks/social';
 @import 'blocks/hamburger';
 @import 'blocks/menu';
-
 @import 'blocks/about-me';
 @import 'blocks/divider';
 @import 'blocks/benefit';
 @import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';

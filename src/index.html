@@ -49,12 +49,12 @@
             <span class="icon-close close"></span>
             <nav>
                 <ul class="menu__links">
-                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a  href="#about-me">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#benefit">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#price">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
             <div class="social-links">
@@ -84,14 +84,14 @@
             <div class="subtitle">Меня зовут Александра Смит</div>
             <h1 class="title">Я web-разработчик <br> из города Москва</h1>
             <div class="promo__btn-wrapper">
-                <button class="button button_portfolio">Портфолио</button>
-                <button class="button button_unactive">Про меня</button>
+                <button class="button button_portfolio"><a href="#portfolio">Портфолио</a></button>
+                <button class="button button_unactive"><a href="#about-me">Про меня</a></button>
             </div>
         </div>
     </section>
 
     <div class="container">
-        <section class="about-me">
+        <section class="about-me" id='about-me'>
             <img src="img/main_photo.jpg" alt="me" class="about-me__img">
             <div class="about-me__content">
                 <div class="subtitle">Про меня</div>
@@ -118,7 +118,7 @@
             </div>
         </section>
 
-        <section class="benefit">
+        <section class="benefit" id='benefit'>
             <div class="subtitle subtitle_center">Опыт</div>
             <h2 class="title title_small title_center">Чем я буду полезна</h2>
             <div class="divider divider_center"></div>
@@ -161,7 +161,7 @@
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id='skills'>
             <div class="subtitle subtitle_center">Навыки</div>
             <h2 class="title title_small title_center">Что я использую в работе</h2>
             <div class="divider divider_center"></div>
@@ -206,45 +206,117 @@
             <div class="skills__progress">
                 <div class="skills__progress-item">
                     <div class="subtitle">Создание сайтов</div>
-                    <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__progress-per">100%</div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
                 <div class="skills__progress-item">
                     <div class="subtitle">Создание приложений</div>
-                    <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__progress-per">85%</div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
                 <div class="skills__progress-item">
                     <div class="subtitle">Работа с данными</div>
                     <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
                 <div class="skills__progress-item">
                     <div class="subtitle">Креативность</div>
-                    <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__progress-per">75%</div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
                 <div class="skills__progress-item">
                     <div class="subtitle">Создание дизайна</div>
                     <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
                 <div class="skills__progress-item">
                     <div class="subtitle">Soft skills</div>
-                    <div class="skills__progress-per">90%</div>
-                    <div class="skills__unfilled"></div>
-                    <div class="skills__unfilled skills__filled"></div>
+                    <div class="skills__progress-per">95%</div>
+                    <div class="skills__unfilled"><span></span></div>
                 </div>
-                
             </div>
-
         </section>
 
+        <section class="portfolio" id='portfolio'>
+            <div class="subtitle subtitle_center">Портфолио</div>
+            <h2 class="title title_small title_center">Мои работы</h2>
+            <div class="divider divider_center"></div>
+            <div class="portfolio__wrapper">
+                <a href="#" class="portfolio__item"><img src="img/works/uber.jpg" alt="uber"></a>
+                <a href="#" class="portfolio__item"><img src="img/works/pulse.jpg" alt="pulse"></a>
+                <a href="#" class="portfolio__item"><img src="img/works/bread.jpg" alt="bread"></a>
+                <a href="#" class="portfolio__item vertical"><img src="img/works/plans.jpg" alt="plans"></a>
+                <a href="#" class="portfolio__item"><img src="img/works/ipad.jpg" alt="ipad"></a>
+                <a href="#" class="portfolio__item horizontal"><img src="img/works/mac.jpg" alt="mac"></a>
+            </div>
+        </section>
+        <section class="price" id='price'>
+            <h2 class="subtitle subtitle_center">Прайс-лист</h2>
+            <div class="divider divider_center"></div>
+            <ul class="price__wrapper">
+                <li class="price__item">
+                    <div class="price__name">Landing-page</div>
+                    <div class="price__descr">Одностраничный сайт для презентации услуг/товаров/...</div>
+                    <div class="price__price">от 8000 руб.</div>
+                </li>
+                <li class="price__item">
+                    <div class="price__name">Web-приложение</div>
+                    <div class="price__descr">Приложение внутри браузера для лучшего комфорта</div>
+                    <div class="price__price">от 28000 руб.</div>
+                </li>
+                <li class="price__item">
+                    <div class="price__name">Корпоративный сайт</div>
+                    <div class="price__descr">Сайт для вашего бизнеса или компании</div>
+                    <div class="price__price">от 20000 руб.</div>
+                </li>
+                <li class="price__item">
+                    <div class="price__name">Android/IOS Приложение</div>
+                    <div class="price__descr">Приложение для смартфона любой ОС</div>
+                    <div class="price__price">от 25000 руб.</div>
+                </li>
+                
+                <li class="price__item">
+                    <div class="price__name">Интернет-магазин</div>
+                    <div class="price__descr">Инструмент для ваших продаж в сети</div>
+                    <div class="price__price">от 30000 руб.</div>
+                </li>
+                <li class="price__item">
+                    <div class="price__name">Дизайн</div>
+                    <div class="price__descr">Создам дизайн для вашего сайта/приложения...</div>
+                    <div class="price__price">Индивидуально</div>
+                </li>
+            </ul>
+        </section>
+        <section class="contacts" id='contacts'>
+            <img src="img/main_photo.jpg" alt="me" class="about-me__img">
+            <div class="contacts__content">
+                <div class="subtitle">Контакты</div>
+                <h2 class="title title_small">Свяжитесь со мной</h2>
+                <div class="divider"></div>
+                <div class="contacts__text">Любым удобным для вас способом:</div>
+                <div class="contacts__links">
+                    <a href="#"><span class='icon-facebook-squared'></span></a>
+                    <a href="#"><span class='icon-telegram'></span></a>
+                    <a href="#"><span class='icon-instagram'></span></a>
+                </div>
+                <div class="contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                <form class="contacts__wrapper">
+                    <div class="contacts__input">
+                        <input name='name' id='name' type="text">
+                        <label for="name">Ваше имя</label>
+                    </div>
+                    <div class="contacts__input">
+                        <input name='email' id='email' type="email">
+                        <label for="email">Ваша почта</label>
+                    </div>
+                    <div class="contacts__textarea">
+                        <textarea name='text' id='text' type="text"></textarea>
+                        <label for="text">Ваше сообщение</label>
+                    </div>
+                    <button class="button">Отправить сообщение</button>
+                </form>
+            </div>
+        </section>
     </div>
 
     <script src="js/script.js"></script>

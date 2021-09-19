@@ -2,9 +2,9 @@
     padding: 120px 65px 0 65px;
     &__wrapper {
         display: grid;
-        grid-template-columns: 425px 425px;
+        grid-template-columns: 1fr 1fr;
         gap: 136px;
-        padding-top: 80px;
+        margin-top: 80px;
     }
     &__title {
         position: relative;
